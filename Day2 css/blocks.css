@@ -1,0 +1,50 @@
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; padding: 0;
+    }
+div {
+    width: 25%;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    position: fixed;
+}
+#one {
+    border: 5px solid blue;
+    bottom: 0;
+    right: 0;
+}
+#two {
+    border: 5px solid green; top: 0; right: 0;
+}
+#three {
+    border: 5px solid rgba(255, 217, 0, 0.596); top: 0; left: 0;
+}
+#four {
+    border: 5px solid yellow; bottom: 0; left: 0;
+}
+#link {
+    position: absolute;
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    margin-top: 10px;
+    color: #fff; 
+    background-color: #354eb1; 
+    padding: 0.25rem 0.5rem; 
+    font-size: 0.875rem; 
+    border-radius: 0.2rem;
+    display: inline-block; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    text-align: center; 
+    vertical-align: middle; 
+    cursor: pointer; 
+    user-select: none; 
+    border: 1px solid transparent;  
+}
+#link a {
+    text-decoration: none; /* Removes underline from the link */
+}
+
+
+
